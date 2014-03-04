@@ -1,0 +1,68 @@
+/********************
+ * TOOLTIP CSS
+ */
+.arrow:after {
+	background: #4d92b8;
+	border: 0px solid #4d92b8;
+}
+
+.nvtooltip {
+	width: 140px;
+	height: 30px;
+
+	position: absolute;
+	background-color: rgba(255,255,255,1);
+	padding: 2px;
+	border: 2px solid #4d92b8;
+
+	font-family: Arial;
+	font-size: 11px;
+	color: #4d92b8;
+
+	transition: opacity 100ms linear;
+	-moz-transition: opacity 100ms linear;
+	-webkit-transition: opacity 100ms linear;
+
+	transition-delay: 100ms
+	-moz-transition-delay: 100ms;
+	-webkit-transition-delay: 100ms;
+/*
+	-moz-box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+	-webkit-box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+	box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+*/
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+
+	text-align: center;
+	line-height: 0px;
+}
+
+.arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: -16px;
+}
+
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 25px;
+	height: 25px;
+/*	-webkit-box-shadow: 6px 5px 9px -9px black,
+	5px 6px 9px -9px black;
+	-moz-box-shadow: 6px 5px 9px -9px black,
+	5px 6px 9px -9px black;
+	box-shadow: 6px 5px 9px -9px black,
+	5px 6px 9px -9px black;
+*/	-webkit-transform: rotate(45deg);
+	-moz-transform:    rotate(45deg);
+	-ms-transform:     rotate(45deg);
+	-o-transform:      rotate(45deg);
+}

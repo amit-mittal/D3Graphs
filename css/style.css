@@ -1,0 +1,54 @@
+.brush .extent {
+	stroke: #fff;
+	fill-opacity: .125;
+	shape-rendering: crispEdges;
+}
+
+/*SVG element*/
+.graph {
+	background: #ebf4f7;
+}
+
+/*Line and Area under the graph*/
+path {
+	stroke: #4d92b8;
+	stroke-width: 2.0;
+	stroke-dasharray: 0;
+	fill: none;
+}
+
+.area {
+	fill: #cbe0ea;
+}
+
+.area2 {
+	fill: #4d92b8;
+}
+
+/*Circle Pointer*/
+.pointer {
+	fill: #4d92b8;
+}
+
+.pointer_mid {
+	fill: white;
+}
+
+/*Text on the graph*/
+text {
+	font-family: Arial;
+	font-size: 8pt;
+	fill: #787878;
+}
+
+/*Grooves on the scale*/
+line {
+	stroke: #808080;
+	stroke-width: 0.5;
+	stroke-dasharray: 3,4;
+	fill: none;
+}
+
+#container {
+	margin: 0;
+}
